@@ -1,3 +1,4 @@
 numpy
 pandas
--e .
+sckit-learn
+# -e .
