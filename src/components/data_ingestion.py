@@ -51,11 +51,7 @@ if __name__=="__main__":
     obj=DataIngestion()
     obj.initiate_data_ingestion()
     train_data,test_data=obj.initiate_data_ingestion()
-    try:
-        print(train_data)
-        logging.info('printed ')
-    except:
-        logging.exception('an error')
+    
 
 
 

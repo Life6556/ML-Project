@@ -20,16 +20,3 @@ class CustomException(Exception):
         return self.error_message
     
 
-
-# def divide(x,y):
-#     try:
-#         result=x/y
-#         print("result:",result)
-#         logging.info("division successfull")
-#     except Exception as e:
-#         error_detail=CustomException(e,sys)
-#         logging.exception(error_detail)
-        
-
-# divide(60,4)
-# divide(10,0)
